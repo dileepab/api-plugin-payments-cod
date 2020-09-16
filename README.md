@@ -1,12 +1,12 @@
-# api-plugin-payments-example
+# api-plugin-payments-cod
 
-[![npm (scoped)](https://img.shields.io/npm/v/@reactioncommerce/api-plugin-payments-example.svg)](https://www.npmjs.com/package/@reactioncommerce/api-plugin-payments-example)
-[![CircleCI](https://circleci.com/gh/reactioncommerce/api-plugin-payments-example.svg?style=svg)](https://circleci.com/gh/reactioncommerce/api-plugin-payments-example)
+[![npm (scoped)](https://img.shields.io/npm/v/@reactioncommerce/api-plugin-payments-cod.svg)](https://www.npmjs.com/package/@reactioncommerce/api-plugin-payments-cod)
+[![CircleCI](https://circleci.com/gh/reactioncommerce/api-plugin-payments-cod.svg?style=svg)](https://circleci.com/gh/reactioncommerce/api-plugin-payments-cod)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ## Summary
 
-Example Payments plugin for the Reaction API
+cod Payments plugin for the Reaction API
 
 ## Developer Certificate of Origin
 We use the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) in lieu of a Contributor License Agreement for all contributions to Reaction Commerce open source projects. We request that contributors agree to the terms of the DCO and indicate that agreement by signing all commits made to Reaction Commerce projects by adding a line with your name and email address to every Git commit message contributed:

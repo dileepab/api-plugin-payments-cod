@@ -1,10 +1,8 @@
 import pkg from "../package.json";
 import i18n from "./i18n/index.js";
 import schemas from "./schemas/index.js";
-import exampleCapturePayment from "./util/exampleCapturePayment.js";
-import exampleCreateAuthorizedPayment from "./util/exampleCreateAuthorizedPayment.js";
-import exampleCreateRefund from "./util/exampleCreateRefund.js";
-import exampleListRefunds from "./util/exampleListRefunds.js";
+import codCapturePayment from "./util/codCapturePayment.js";
+import codCreateAuthorizedPayment from "./util/codCreateAuthorizedPayment.js";
 import startup from "./startup.js";
 
 /**
@@ -14,8 +12,8 @@ import startup from "./startup.js";
  */
 export default async function register(app) {
   await app.registerPlugin({
-    label: "Example Payments",
-    name: "payments-example",
+    label: "COD Payments",
+    name: "payments-COD",
     version: pkg.version,
     i18n,
     graphQL: {
@@ -25,14 +23,12 @@ export default async function register(app) {
       startup: [startup]
     },
     paymentMethods: [{
-      name: "iou_example",
-      canRefund: true,
-      displayName: "IOU Example",
+      name: "cod",
+      canRefund: false,
+      displayName: "COD (Cash On Delivery)",
       functions: {
-        capturePayment: exampleCapturePayment,
-        createAuthorizedPayment: exampleCreateAuthorizedPayment,
-        createRefund: exampleCreateRefund,
-        listRefunds: exampleListRefunds
+        capturePayment: codCapturePayment,
+        createAuthorizedPayment: codCreateAuthorizedPayment,
       }
     }]
   });
