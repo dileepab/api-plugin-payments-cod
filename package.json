@@ -7,12 +7,12 @@
   "engines": {
     "node": ">=14.11.0"
   },
-  "homepage": "https://github.com/reactioncommerce/api-plugin-payments-cod",
-  "url": "https://github.com/reactioncommerce/api-plugin-payments-cod",
+  "homepage": "https://github.com/dileepab/api-plugin-payments-cod",
+  "url": "https://github.com/dileepab/api-plugin-payments-cod",
   "email": "engineering@reactioncommerce.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/api-plugin-payments-cod.git"
+    "url": "git+https://github.com/dileepab/api-plugin-payments-cod.git"
   },
   "author": {
     "name": "Reaction Commerce",
@@ -21,7 +21,7 @@
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-plugin-payments-cod/issues"
+    "url": "https://github.com/dileepab/api-plugin-payments-cod/issues"
   },
   "sideEffects": false,
   "dependencies": {
