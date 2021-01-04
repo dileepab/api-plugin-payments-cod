@@ -1,5 +1,5 @@
 {
-  "name": "@dileepab/api-plugin-payments-cod",
+  "name": "@dileepa/api-plugin-payments-cod",
   "description": "COD Payments plugin for the Reaction API",
   "version": "0.0.0-development",
   "main": "index.js",
