@@ -1,7 +1,7 @@
 {
   "name": "@dileepa/api-plugin-payments-cod",
   "description": "COD Payments plugin for the Reaction API",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "type": "module",
   "engines": {
