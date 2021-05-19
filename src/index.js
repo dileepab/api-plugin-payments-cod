@@ -4,8 +4,8 @@ import schemas from "./schemas/index.js";
 import codCapturePayment from "./util/codCapturePayment.js";
 import codCreateAuthorizedPayment from "./util/codCreateAuthorizedPayment.js";
 import startup from "./startup.js";
-import codListRefunds from './util/codListRefunds';
-import codCreateRefund from './util/codCreateRefund';
+import codListRefunds from './util/codListRefunds.js';
+import codCreateRefund from './util/codCreateRefund.js';
 
 /**
  * @summary Import and call this function to add this plugin to your API.
