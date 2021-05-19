@@ -1,6 +1,6 @@
-"Data for an example IOU payment"
+"Data for an COD payment"
 type CODPaymentData {
-  "The name of the IOU payer entered by the shopper"
+  "The name of the COD payer entered by the shopper"
   fullName: String!
 }
 

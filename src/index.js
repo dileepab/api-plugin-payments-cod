@@ -29,6 +29,8 @@ export default async function register(app) {
       functions: {
         capturePayment: codCapturePayment,
         createAuthorizedPayment: codCreateAuthorizedPayment,
+        createRefund: () => {return { saved: true }},
+        listRefunds: () => { return {}}
       }
     }]
   });
