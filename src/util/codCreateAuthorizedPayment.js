@@ -31,7 +31,7 @@ export default async function codCreateAuthorizedPayment(context, input) {
     amount,
     createdAt: new Date(),
     data: {
-      fullName,
+      fullName: billingAddress.fullName,
       gqlType: "CODPaymentData" // GraphQL union resolver uses this
     },
     displayName: `COD from ${fullName}`,
